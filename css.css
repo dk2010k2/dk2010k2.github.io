@@ -712,14 +712,16 @@ text-align: center
 		display: flex;
 		flex-wrap: wrap;
 	    position: absolute;
-		left: 10%;
+		left: 5%;
 		
 		
 	}
 	.p02 p{
 		font-size:15.5px;
-		padding: 0 10px 0 20px
+		padding: 0 20px 0 10px;
+		width: 100%;
 	}
+	
 	.banner-ct{
 		position: absolute;
 		left: 5%;
@@ -734,7 +736,12 @@ text-align: center
 		left: 35%	
 	}	
 	.btn2{	
-		padding: 5px 40px	
+		padding: 5px 40px;
+		
+	}
+	.p02 hr{
+		width: 0;
+		height: 0;
 	}
 }
 @media screen and (max-width:430px){
