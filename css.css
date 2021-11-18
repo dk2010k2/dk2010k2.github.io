@@ -934,12 +934,12 @@ text-align: center
 }
 @media screen and (max-width:430px){
 	.storyposvi img{
-		height: 400px;
-		width: 200px;
+				height: 200px;
+		width: 100%;
 	}
 	.storyposjinx img{
-		height: 400px;
-		width: 200px;
+		height: 200px;
+		width: 100%;
        ;
 	}
 	.storyposvi h1{
@@ -958,7 +958,10 @@ text-align: center
 		height: 0px
 	}
 	.ngancach {
-		width: 50%
+		width: 100%
+	}
+	.bannerx{
+		height: 500px
 	}
 }
 .truyeb{
